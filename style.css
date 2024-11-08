@@ -65,11 +65,21 @@ li a{
 
 .hero-text{
     display:flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    align-items:center;
     flex-direction:row;
     font-size: 56px;
     height: 420px;
     color:white;
+}
+.search-container{
+    margin-top: 400px;
+    justify-content: center;
+    text-align: center;
+    width: -10px;
+    height: 55px;
+    max-width: 750px;
+
 
 }
+ 
