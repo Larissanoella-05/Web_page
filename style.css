@@ -14,16 +14,17 @@ body{
 .header{
     position: relative;
 }
-.image-container{
+/*.image-container{
     position:relative;
     width: 100%;
     height: 420px;
 }
-.image-container img{
+/* .image-container img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
-}
+    object-fit:cover;
+    z-index: -999;    
+} */
 .nav{
     position: absolute;
     top:0;
@@ -35,10 +36,28 @@ body{
     align-items: center;
 
 }
+.container ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+
+}
+li a{
+    text-decoration: none;
+}
+
 .logoContainer{
     display: flex;
     align-items: center;
 }
 .logoContainer p{
     padding: 5px;
+}
+.hero{
+    margin-top: 65px;
+    width: 100%;
+    height: 100vh;
+    background-image: url(./images/VRBO_OOH_TRUST_LISBON_HOUSE_NATACHA_WIDE_BACKDOOR_HUMM_0004.jpeg);
+    background-size:cover;
+    background-position: center;
 }
